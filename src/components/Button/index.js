@@ -49,7 +49,7 @@ const propTypes = {
   accessibilityLabel: PropTypes.string
 }
 
-Button.protoType = propTypes;
+Button.propTypes = propTypes;
 
 Button.defaultProps = {
   onPress: function() {},

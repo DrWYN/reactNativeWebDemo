@@ -41,7 +41,7 @@ const propTypes = {
   testID: PropTypes.string,
 }
 
-ProgressBar.protoType = propTypes;
+ProgressBar.propTypes = propTypes;
 
 ProgressBar.defaultProps = {
   progress: 0,

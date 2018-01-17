@@ -42,7 +42,7 @@ const propTypes = {
   disabled: PropTypes.bool,
 }
 
-MySwitch.protoType = propTypes;
+MySwitch.propTypes = propTypes;
 
 MySwitch.defaultProps = {
   thumbColor: '#EBA9A7',
